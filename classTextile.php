@@ -1701,7 +1701,7 @@ class Textile
 	function fImage($m)
 	{
 		list(, $algn, $atts, $url) = $m;
-		$url = htmlspecialchars($url);
+		//$url = htmlspecialchars($url);
 
 		$extras = $align = '';
 		if( '' !== $algn ) {
